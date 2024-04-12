@@ -1,0 +1,46 @@
+@media (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+  }
+body{
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(5, 5, 5));
+    padding: 1%;
+}
+/* modal inisio sesion */
+.boton{
+    background-color: transparentize(black .9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;  
+    padding-left: 30%;  
+}
+h6{
+    margin-bottom: 10px;
+    top: 50%;
+    left: 50%;
+    margin-left: 30%;
+}
+[class*=btn-success]{
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+.password{
+    margin-bottom: 10px;
+    top: 50%;
+    left: 50%;
+    margin-left: 18%;
+}
+.controls{
+    margin-bottom: 10px;
+    top: 50%;
+    left: 50%;
+    margin-left: 18%;
+}
+.modal-footer{
+    margin: auto;
+}
