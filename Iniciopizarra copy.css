@@ -1,6 +1,14 @@
+body{
+  font-family: sans-serif;
+}
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Titulo{
+  text-align: center;
+}
 
 /* barra */
-/* icono */
 .notificaciones{
   margin-top: 400px;
 }
@@ -20,17 +28,31 @@
     width: 100%;
     margin-top: -10px;
     padding: 12px;
+    background: linear-gradient(to top, red 1%, rgb(152, 0, 0) 99%);
 }
 [class*="fa-brands"]{
     margin-left: 100%;
 }
-[class*="container-fluid"]{
-    background-color: red;
-}
+
 .configuracion{
     margin-left: 5%;
 }
+
+/* Animacion */
+@keyframes agrandar{
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+
 /* contenido de la pagina */
+hr{
+  
+}
 img{
   width: 100%;
   height: 50%;
@@ -52,6 +74,21 @@ img{
   margin: 1px;
   padding-bottom: 5px;
 }
+.Botones i{
+  color: black;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+/* El hover es cuando pasa el raton */
+.Botones :hover{
+  color: rgb(255, 0, 0);
+}
+.Botones :active{
+  color: red;
+}
+
 
 /* barra */
 #sidebar{
@@ -82,13 +119,13 @@ img{
     display: block;
     transition: 0.5s;
   }
-  
+  /* Al pasar el raton */
   .sidebar a:hover {
     color: #7c7c7c;
   }
   /*  lo maximo q se abre la ventana */
   .sidebar:hover {
-    width: 5px; /* expanded width */
+    width: 5px; /* ventana expandida */
   }
   
   .main-content {
@@ -106,7 +143,7 @@ img{
     top: 95%;
     left: 90%;
     z-index: 2;
-    background-color: red;
+
   }
   /* Chats */
   .btn-light{
