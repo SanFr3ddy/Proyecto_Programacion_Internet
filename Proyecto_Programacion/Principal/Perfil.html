@@ -19,7 +19,7 @@
             crossorigin="anonymous"
         /> 
         <!-- social cards -->
-        <meta property="og:url" content="https://www.Pizarra.com">
+        <meta property="og:url" content="https://www.Xhill.com">
         <meta property="og:type" content="website">
 
         <!-- boostrap 5-->
@@ -31,73 +31,68 @@
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-thin-straight/css/uicons-thin-straight.css'>
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-straight/css/uicons-solid-straight.css'>    
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-straight/css/uicons-solid-straight.css'>   
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'> 
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
       </head>
 
-      <body>
+    <body class="main-content">
 
-        <!-- modal de cofiguacion -->
-  
-        
-        <!-- barra navegacion arriba-->
-        <nav  class="navbar navbar-expand-lg bg-body-tertiary" >
-          <div class="container-fluid">
-            <!-- extensor -->
-              <!-- buscador -->
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-danger" type="submit">
-                  <i class="fi fi-bs-search"></i>
-                </button>
-              </form>
-          </div>
-        </nav>
-        <div class="main-content">
-          <button id="collapse-button" onclick="toggleSidebar()"</button> <i class="fi fi-rr-menu-burger"></i>
+      <!-- modal de cofiguacion -->
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <h3 id="Titulo">XHILL</h3>
+        <!-- buscador -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        </form>
+        <div>
+          <a href="#" class="notificaciones nav-link">
+            <i class="fi fi-sr-bell"></i>
+          </a>
         </div>
-          <!-- barra navegacion baja -->
-  
-          <div id="sidebar" class="sidebar">
-            <a class="navbar-brand active" href="InicioPizarra.html">
-              <i class="fi fi-br-home"> Inicio</i>
-            </a>
-            <a class="navbar-brand" href="Chat.html">
-              <i class="fi fi-rr-comment-alt"> Mensajes</i>
-            </a>
-            <a class="navbar-brand" href="Publicar.html">
-              <i class="fi fi-rr-add"> Nuevo</i>
-            </a>
-            <a class="navbar-brand" href="Favoritos.html">
-              <i class="fi fi-ss-star"> Favoritos</i>
-            </a>
-            <a class="navbar-brand" href="Perfil.html">
-              <i class="fi fi-rr-user"> Perfil</i>
-            </a>
-            <a href="" class="notificaciones">
-              <i class="fi fi-sr-bell">
-              </i>
-            </a>
-            
-          </div>
-  
-          <div class="main-content">
-            <h3>Favoritos</h3>
+      </nav>
+        <div class="container-fluid">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="InicioPizarra.html">
+                    <i class="fi fi-br-home"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Chat.html">
+                    <i class="fi fi-rr-comment-alt"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Publicar.html">
+                    <i class="fi fi-rr-add"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="configuracion.html">
+                    <i class="fi fi-ss-star"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="Perfil.html">
+                    <i class="fi fi-rr-user"></i>
+                  </a>
+                </li>
+              </ul>
+        </div>
+      
+      <div>
 
-          </div>
+        <h2><img src="https://i.pinimg.com/236x/89/31/e0/8931e0c19e5bfca74c58e1c29625c46a.jpg" alt="" id="Fotoperfil"><a href="Perfil.html">@Andre_</a><i class="fi fi-brands-abbot-laboratories"></i></h2>
+        <p>soy Andre_</p>
+      </div>
 
-          <script>
-          function toggleSidebar() {
-            var sidebar = document.getElementById("sidebar");
-            var mainContent = document.querySelector(".main-content");
-            if (sidebar.style.width === '250px') {
-              sidebar.style.width = '0px';
-              mainContent.style.marginLeft = '0px';
-            } else {
-              sidebar.style.width = '250px';
-              mainContent.style.marginLeft = '250px';
-            }
-          }
-          </script>
+      
+
         <header>
             <!-- place navbar here -->
         </header>
@@ -109,6 +104,7 @@
             <!-- place footer here -->
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
+
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
